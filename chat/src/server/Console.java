@@ -41,6 +41,7 @@ public class Console extends Thread {
 	}
 
 	public static void main(String[] args) {
+		//开启程序
 		Application.begin();
 		new Console().start();
 	}
